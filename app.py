@@ -23,16 +23,6 @@ header, footer {visibility: hidden;}
         linear-gradient(180deg, #020617, #020617);
 }
 
-/* Main card */
-.card {
-    background: rgba(2, 6, 23, 0.90);
-    backdrop-filter: blur(18px);
-    padding: 2.8rem;
-    border-radius: 18px;
-    box-shadow: 0 25px 60px rgba(0,0,0,0.7);
-    border: 1px solid rgba(255,255,255,0.08);
-}
-
 /* Title */
 .title {
     text-align: center;
@@ -152,5 +142,6 @@ if st.button("🚀 Analyze Message", use_container_width=True):
                     ✅ THIS MESSAGE IS SAFE
                 </div>
             """, unsafe_allow_html=True)
+
 
 
