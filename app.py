@@ -4,7 +4,9 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
+
 
 
 # ---------------- Page Config ----------------
@@ -150,4 +152,5 @@ if st.button("🚀 Analyze Message", use_container_width=True):
                     ✅ THIS MESSAGE IS SAFE
                 </div>
             """, unsafe_allow_html=True)
+
 
